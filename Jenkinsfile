@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent jenkinsnode
   stages {
     stage('Say Hello') {
       steps {
